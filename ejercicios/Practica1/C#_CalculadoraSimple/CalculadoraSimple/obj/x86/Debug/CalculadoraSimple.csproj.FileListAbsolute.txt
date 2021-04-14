@@ -1,0 +1,7 @@
+c:\users\rositam\documents\visual studio 2010\Projects\CalculadoraSimple\CalculadoraSimple\bin\Debug\CalculadoraSimple.exe
+c:\users\rositam\documents\visual studio 2010\Projects\CalculadoraSimple\CalculadoraSimple\bin\Debug\CalculadoraSimple.pdb
+c:\users\rositam\documents\visual studio 2010\Projects\CalculadoraSimple\CalculadoraSimple\obj\x86\Debug\CalculadoraSimple.Calculadora.resources
+c:\users\rositam\documents\visual studio 2010\Projects\CalculadoraSimple\CalculadoraSimple\obj\x86\Debug\CalculadoraSimple.Properties.Resources.resources
+c:\users\rositam\documents\visual studio 2010\Projects\CalculadoraSimple\CalculadoraSimple\obj\x86\Debug\CalculadoraSimple.csproj.GenerateResource.Cache
+c:\users\rositam\documents\visual studio 2010\Projects\CalculadoraSimple\CalculadoraSimple\obj\x86\Debug\CalculadoraSimple.exe
+c:\users\rositam\documents\visual studio 2010\Projects\CalculadoraSimple\CalculadoraSimple\obj\x86\Debug\CalculadoraSimple.pdb

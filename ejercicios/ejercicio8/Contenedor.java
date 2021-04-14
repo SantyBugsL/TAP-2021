@@ -1,8 +1,9 @@
-package ejercicios.ejercicio5;
+package ejercicios.ejercicio8;
+
 
 import java.awt.*;
 
-public class Contenedor extends Canvas{
+public class Contenedor extends Canvas {
 
     /**
      *
@@ -12,22 +13,39 @@ public class Contenedor extends Canvas{
     private int w, h;
     private boolean isClicked;
     private Image imagen;
+    private Image buffer;
+    private Image images[];
+    private int t;
 
     public Contenedor() {
         x = 30;
         y = 30;
         isClicked = false;
-        String pathImage = "recursos/5.png";
+
+        images = new Image[6];
+        String pathImage = "recursos/sonic/Pisata2.png";
         imagen = Toolkit.getDefaultToolkit().getImage(pathImage);
-        
+        this.t = 0;
+        for (int i = 1; i <= 6; i++) {
+            images[i - 1] = Toolkit.getDefaultToolkit().getImage("recursos/sonic/" + i + ".png");
+        }
     }
 
     public void paint(Graphics g) {
-        g.setColor(Color.yellow);
-        g.fillOval(x, y, w, h);
-        g.setColor(Color.black);
-        g.fillOval(x + 30, y + 30, (int)(w * 0.30), (int)(h * 0.30));
-        g.drawImage(imagen,x,y,this);
+        Graphics2D g2d = (Graphics2D) g;
+        buffer = createImage(1024, 450);
+        Graphics miG = buffer.getGraphics();
+        miG.setColor(Color.white);
+        miG.fillRect(0, 0, 1024, 450);
+        miG.drawImage(imagen, 0, 0, 1024, 450, this);
+        miG.drawImage(images[this.t], x, y + 100, this);
+        g2d.drawImage(buffer, 0, 0, this);
+    }
+
+    public void tick() {
+        this.t++;
+        if (t >= images.length)
+            this.t = 0;
     }
 
     public int getX() {
