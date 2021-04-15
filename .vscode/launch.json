@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Bloc",
+            "request": "launch",
+            "mainClass": "ejercicios.BlocNotas.Bloc",
+            "projectName": "TAP-2021_aa2b7566"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "ejercicios.Practica1.Vista.Main",
+            "projectName": "TAP-2021_aa2b7566"
+        },
+        {
+            "type": "java",
+            "name": "Launch BotonPressed",
+            "request": "launch",
+            "mainClass": "ejercicios.Practica2.BotonPressed",
+            "projectName": "TAP-2021_aa2b7566"
+        },
+        {
+            "type": "java",
+            "name": "Launch Motion",
+            "request": "launch",
+            "mainClass": "ejercicios.Practica2.Motion",
+            "projectName": "TAP-2021_aa2b7566"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pantalla",
+            "request": "launch",
+            "mainClass": "ejercicios.Proyecto.Pantalla",
+            "projectName": "TAP-2021_aa2b7566"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "ejercicios.Proyecto2.Main",
+            "projectName": "TAP-2021_aa2b7566"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(2)",
+            "request": "launch",
+            "mainClass": "ejercicios.ejercicio1.Main",
+            "projectName": "TAP-2021_aa2b7566"
+        },
+        {
+            "type": "java",
+            "name": "Launch VentanaCListener",
+            "request": "launch",
+            "mainClass": "ejercicios.ejercicio2.VentanaCListener",
+            "projectName": "TAP-2021_aa2b7566"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pantalla(1)",
+            "request": "launch",
+            "mainClass": "ejercicios.ejercicio5.Pantalla",
+            "projectName": "TAP-2021_aa2b7566"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pantalla(2)",
+            "request": "launch",
+            "mainClass": "ejercicios.ejercicio6.Pantalla",
+            "projectName": "TAP-2021_aa2b7566"
+        },
+        {
+            "type": "java",
+            "name": "Launch Snake",
+            "request": "launch",
+            "mainClass": "ejercicios.ejercicio7.Snake",
+            "projectName": "TAP-2021_aa2b7566"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pantalla(3)",
+            "request": "launch",
+            "mainClass": "ejercicios.ejercicio8.Pantalla",
+            "projectName": "TAP-2021_aa2b7566"
+        }
+    ]
+}
