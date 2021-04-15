@@ -1,4 +1,4 @@
-package ejercicios.Proyecto;
+package ejercicios.Prueba1;
 
 import java.awt.Frame;
 import java.awt.event.*;

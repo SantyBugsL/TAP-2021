@@ -1,4 +1,4 @@
-package ejercicios.Proyecto2;
+package ejercicios.Proyecto;
 
 
 import java.awt.*;
