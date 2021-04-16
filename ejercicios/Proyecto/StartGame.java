@@ -16,7 +16,7 @@ public class StartGame extends JDialog {
 
         //
         imgFondo = new JLabel();
-        imgFondo.setIcon(new ImageIcon("recursos/Laberinto.png"));
+        imgFondo.setIcon(new ImageIcon(getClass().getResource("/recursos/cone/Laberinto.png")));
         imgFondo.addMouseListener(new MouseAdapter() {
             public void mouseClicked(MouseEvent e) {
                 imgFondoMouseClicked(e);
@@ -36,11 +36,9 @@ public class StartGame extends JDialog {
 
     public void imgFondoMouseClicked(MouseEvent e) {
         this.dispose();
-        new Game().initComponents();
-        
-        
+        new MainGame().initComponents();
     }
-
+    
     /// Variables declaration
     JLabel imgFondo;
     // End of variables declaration

@@ -1,5 +1,6 @@
 package ejercicios.Proyecto;
 
+
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.*;
@@ -16,7 +17,7 @@ public class EndGame extends JDialog{
 
         //
         imgFondo = new JLabel();
-        imgFondo.setIcon(new ImageIcon("recursos/GameOver.png"));
+        imgFondo.setIcon(new ImageIcon(getClass().getResource("/recursos/cone/GameOver.png")));
         imgFondo.addMouseListener(new MouseAdapter(){
             public void mouseClicked(MouseEvent e) {
                 imgFondoMouseClicked(e);
