@@ -36,12 +36,9 @@ public class EndGame extends JDialog{
 
     public void imgFondoMouseClicked(MouseEvent e){
         System.out.println("Presionado");
-        dispose();
-        new StartGame(new JFrame(), false);
-    }
-
-    public static void main (String [] args){
-        EndGame endGame = new EndGame(new JFrame(), true);
+        this.dispose();
+        StartGame startGame = new StartGame(new JFrame(), true);
+        this.dispose();
     }
 
     /// Variables declaration

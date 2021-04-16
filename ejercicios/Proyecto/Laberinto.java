@@ -98,5 +98,20 @@ public class Laberinto extends JPanel {
                     break;
             }
     }
+
+    public void collisionCheck() {
+        //
+        if (PersonajeEjeX + 90 >= getWidth()) {
+            PersonajeEjeX = getWidth() - 90;
+            Component comp = SwingUtilities.getRoot(this);
+            ((Window) comp).dispose();
+            EndGame endGame = new EndGame(new JFrame(), false);
+            endGame.setVisible(true);
+        }
+        if (PersonajeEjeX <= 0) {
+            PersonajeEjeX = 0;
+        }
+    }
+
     
 }

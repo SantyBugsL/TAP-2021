@@ -35,14 +35,10 @@ public class StartGame extends JDialog {
     }
 
     public void imgFondoMouseClicked(MouseEvent e) {
-        System.out.println("Presionado");
+        this.dispose();
         new Game().initComponents();
-        dispose();
         
-    }
-
-    public static void main(String[] args) {
-        StartGame startGame = new StartGame(new JFrame(), false);
+        
     }
 
     /// Variables declaration
