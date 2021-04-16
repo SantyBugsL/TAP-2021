@@ -49,8 +49,8 @@ public class Laberinto extends JPanel {
         Image personaje = new ImageIcon(getClass().getResource("/recursos/cone/g3.gif")).getImage();
         g.drawImage(personaje, PersonajeEjeX, PersonajeEjeY, 40, 60, this); //pinta el personaje superponiendolo al fondo y a las rocas
 
-        Image zanahoria = new ImageIcon(getClass().getResource("/recursos/cone/g5.gif")).getImage();
-        g.drawImage(zanahoria, 880, 420, 40, 60, this); //pinta la zanahoria superponiendolo al fondo y a las rocas
+        Image gallina = new ImageIcon(getClass().getResource("/recursos/cone/g5.gif")).getImage();
+        g.drawImage(gallina, 880, 420, 40, 60, this); //pinta la gallina superponiendolo al fondo y a las rocas
 
     }
 
