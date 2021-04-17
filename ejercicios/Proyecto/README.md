@@ -6,6 +6,7 @@
 ## JOHAN RODRIGO CAB MAAS 7009
 ## FRANCISCO JOSUE HUCHIN UC 7026
 
+
 # Clase Laberinto
 
 La clase Laberinto se encarga de crear un arreglo de las posiciones de los obstáculos en este caso son rocas también carga las imágenes del escenario llamado jardin1, el personaje de un gallo, las rocas respectivamente.
