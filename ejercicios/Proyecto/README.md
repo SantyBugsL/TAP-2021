@@ -6,7 +6,7 @@
 ## JOHAN RODRIGO CAB MAAS 7009
 ## FRANCISCO JOSUE HUCHIN UC 7026
 
-# Juego Laberionto
+# Juego Laberinto
 
 Este programa es un pequeño juego que su objetivo es encontrar el camino correcto para llegar a la meta el personaje es un gallo que debe encontrar el camino correcto para llegar con su compañera la gallina y así ganar el juego.
 
